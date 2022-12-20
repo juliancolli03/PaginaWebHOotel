@@ -333,7 +333,7 @@ p {
 }
 
 .room-item .room-content {
-    border: .125rem solid #fff;
+    /* border: .125rem solid #fff; */
     padding: 5rem 1.875rem;
     -webkit-transform: scale3d(1.2, 1.2, 1.2);
     transform: scale3d(1.2, 1.2, 1.2);
@@ -821,5 +821,12 @@ p {
     }
 }
 
+
         
 } 
+
+@media (max-width: 550px) {
+    .about_wrapper {
+        padding-top:40px;
+      }
+}
